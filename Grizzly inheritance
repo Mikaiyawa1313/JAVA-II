@@ -1,0 +1,22 @@
+package com.acc.java;
+
+public class Grizzly extends Bear {
+
+	
+	@Override
+	public String hunt(){
+		return "hunting salmon";
+	}
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Grizzly griz1 = new Grizzly();
+		
+		//griz1.reproduce();
+		//griz1.fight();
+		System.out.println("A grizzly is " + griz1.hunt());
+		
+	}
+
+}
