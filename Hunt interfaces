@@ -13,7 +13,7 @@ package com.acc.java;
 
 public interface Hunt2 {
 
-	public String hunt();
+	public String hunt2();
 	}
 
 
@@ -22,7 +22,7 @@ package com.acc.java;
 
 public interface Hunt3 {
 
-	public String hunt();
+	public String hunt3();
 	
 }
 
