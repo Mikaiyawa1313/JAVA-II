@@ -1,0 +1,40 @@
+package com.acc.java;
+
+public class Grizzly2 implements Hunt1, Hunt2, Hunt3  {
+
+	String name;
+	
+	public Grizzly2(String name){
+		this.name = name;
+	}
+	
+	@Override
+	public string hunt1(){
+		return "hunting plants.";
+	}
+	
+	@Override
+	public string hunt2(){
+		return "hunting berries.";
+	}
+	
+	@Override
+	public string hunt3(){
+		return "hunting salmon.";
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Grizzly2 griz1 = new Grizzly2();
+		
+		System.out.println("A grizzly is " + griz1.hunt1());
+		System.out.println("A grizzly is " + griz1.hunt2());
+		System.out.println("A grizzly is " + griz1.hunt3());
+		
+		
+		
+	}
+}
