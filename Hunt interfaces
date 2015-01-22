@@ -1,0 +1,31 @@
+package com.acc.java;
+
+public interface Hunt1 {
+
+	public String hunt1();
+
+}
+
+
+
+
+package com.acc.java;
+
+public interface Hunt2 {
+
+	public String hunt();
+	}
+
+
+
+package com.acc.java;
+
+public interface Hunt3 {
+
+	public String hunt();
+	
+}
+
+
+
+
